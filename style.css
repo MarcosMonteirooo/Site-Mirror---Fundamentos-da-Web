@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+   flex: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px; 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.sacola-de-compra{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    justify-content:flex-end;
+    gap: 5px;
+}
+.sacola-de-compra i{
+    font-size: 30px;
+     
+}
+.sacola-de-compra p{
+    text-align: end;
+}
+
+.conteiner{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    
+}
+
+header ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    color: blue;
+}
+
+.sobre h2{
+   /* background-color: #c9c9c9;*/
+    background-image:url(imagens/cheap_diagonal_fabric.png);
+    background-repeat: repeat;
+    background-size: auto; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sobre div{
+    padding: 15px 30px;
+}
+
+.sobre div p{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.container-distribuidora{
+  text-align: center; 
+}
+
+figure {
+  display: inline-block;
+  background-color: #f6f1f1;
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.historia h3{
+    border-bottom: 2px solid black ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.historia div{
+    padding-top: 10px;
+    display: flex;
+}
+
+.historia figcaption{
+    text-align: center;
+}
+
+.historia p{
+    padding: 15px 20px;
+    line-height: 1.6;
+}
+
+.diferenciais h3{
+    padding-top: 15px;
+    border-bottom: 2px solid black ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.diferenciais div{
+    padding: 30px 40px;
+}
+
+.diferenciais ul{
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+footer{
+    background-image: url(imagens/1348.jpg);
+    height: 120px;
+}
+
+footer img{
+    max-width: 60%;
+    height: auto;
+    padding-left: 150px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
